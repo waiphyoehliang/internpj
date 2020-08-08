@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/tubg);
+     background-position: center;
+     background-size: cover;
+     font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+/* header */
+#header{
+    width: 100%;
+    
+}
+/* navbar  */
+
+header #bg-nav{
+    background-color: dodgerblue;
+}
+.navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header .nav-link{
+    color: aliceblue;
+  font-family: sans-serif;
+}
+
+/*-----------------Button-------------------------- */
+
+.btn{
+    background-color: blue;
+    width:180px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 40px;
+    display: inline-block;
+    padding:15px 0px;
+    margin: 5 20px;
+    text-align: center;
+    letter-spacing: 1.0px;
+    text-decoration: none;
+}
+.btn-ghost:hover,
+btn-ghost:active {
+    border: 1px solid ;
+    color: black;
+}
+.btn-full:link,
+.btn-full:visited{
+    color: blue;
+}
+.hero-text-box {
+    width: 1140px;
+    position: absolute;
+    top: 80%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    
+}
+.btn-ghost {
+    border: 1px solid darkturquoise;
+    color: white;
+}
+.btn-full:hover,
+.btn-ghost:active{
+    background-color: darkturquoise;
+    border: 1px solid black;
+    color: white;
+}
+/*----------------------footer Section-----------------*/
+
+.footer {
+  color: black;
+  width: 100%;
+  display: flex;
+  background-color: dodgerblue;
+}
+
+.left {
+  font-size: 14px;
+  margin-top: 50px;
+  width: 30%;
+  margin-left: 10%;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.middle {
+  font-size: 14px;
+  width: 17%;
+  margin-top: 50px;
+  margin-left: 2%;
+  line-height: 25px;
+}
+.middle ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.middle ul li a {
+  text-decoration: none;
+  color: black;
+}
+.right {
+  font-size: 14px;
+  width: 20%;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.right #facebookpage{
+    padding-bottom: 1rem;
+}
+.right .foot-img img {
+  float: left;
+  margin-top: 10px;
+  border: 1px solid white;
+}
+
+.right .foot-img .txt {
+  float: left;
+  margin: 10px;
+}
+
+	.border {
+		width: 40px;
+    height: 2px;
+    text-align: center;
+    background: #ff9800;
+  }
